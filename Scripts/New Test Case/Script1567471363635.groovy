@@ -12,4 +12,18 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+
+WebUI.setText(findTestObject('Page_profile.php_login/txt_UserName'), 'John Doe')
+
+WebUI.setText(findTestObject('Page_profile.php_login/txt_Password'), 'ThisIsNotAPassword')
+
+WebUI.click(findTestObject('Page_profile.php_login/btn_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_appointment/btn_MakeAppointment'), 10)
+
+WebUI.closeBrowser()

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New Test Data</name>
+   <name>Demo_Account</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
-   <csvSeperator></csvSeperator>
-   <dataFileGUID>107d25ed-af8c-4cb9-bfb1-1d798e187cfa</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>b4edbd9a-1860-496e-a8b5-1c20077e9c73</dataFileGUID>
+   <dataSourceUrl>Include/resources/fixture/demo_account.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
