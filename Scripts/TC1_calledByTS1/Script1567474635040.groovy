@@ -18,9 +18,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.setText(findTestObject('Page_profile.php_login/txt_UserName'), 'John Doe')
+WebUI.setText(findTestObject('Page_profile.php_login/txt_UserName'), demo_usn)
 
-WebUI.setText(findTestObject('Page_profile.php_login/txt_Password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('Page_profile.php_login/txt_Password'), demo_pwd)
 
 WebUI.click(findTestObject('Page_profile.php_login/btn_Login'))
 

@@ -1,7 +1,8 @@
 Oliver Howard's Data-driven testing tutorial
 ============
 
-Oliver Hower wrote a very nice article [Approach Data-diriven framework in software testing](https://dzone.com/articles/data-driven-testing-approach-with-katalon-studio). In this artidle, Oliver described that there are 2 methods of using data.
+Oliver Hower wrote a very nice article 
+[Approach Data-diriven framework in software testing](https://dzone.com/articles/data-driven-testing-approach-with-katalon-studio). In this artidle, Oliver described that there are 2 methods of using data.
 
 A. data associated to a Test Suites
 B. your Test Case script explicitly loop through the data via `com.kms.katalon.core.testdata.InternalData'
