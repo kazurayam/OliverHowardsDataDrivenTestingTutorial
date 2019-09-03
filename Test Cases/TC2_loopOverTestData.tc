@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2_loopOverInternalData</name>
+   <name>TC2_loopOverTestData</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>95c23449-35fd-4d3f-8b54-d9683729e97e</testCaseGuid>
